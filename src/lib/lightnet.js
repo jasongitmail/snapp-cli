@@ -758,11 +758,13 @@ async function checkDockerEngineAvailability() {
       );
       shell.exit(1);
     }
-    const { code } = await executeCmd('docker ps -a');
-    if (code !== 0) {
+    const result = await executeCmd('docker ps -a');
+    if (result.code !== 0) {
       console.log(
         chalk.red(
-          '\n\nPlease ensure that Docker Engine is running, then try again.'
+          '\n\nThe command "docker ps -a" failed with the following error:\n' +
+            result.stderr +
+            '\nPlease ensure that Docker Engine is running properly, then try again.'
         )
       );
       shell.exit(1);
