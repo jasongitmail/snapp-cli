@@ -621,7 +621,7 @@ describe('project.js', () => {
       expect(spawnSync).toHaveBeenCalledWith(
         'npx',
         [
-          'create-next-app@14.2.12',
+          'create-next-app@14.2.24',
           'ui',
           '--use-npm',
           '--no-src-dir',
