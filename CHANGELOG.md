@@ -17,6 +17,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## Unreleased
 
+## [0.22.6](https://github.com/o1-labs/zkapp-cli/compare/0.22.5...0.22.6) - 2025-02-18
+
 ## [0.22.5](https://github.com/o1-labs/zkapp-cli/compare/v0.22.4...v0.22.5) - 2025-02-07
 
 ## [0.22.4](https://github.com/o1-labs/zkapp-cli/compare/v0.22.3...v0.22.4) - 2025-01-29
